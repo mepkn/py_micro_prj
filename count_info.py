@@ -19,8 +19,7 @@ def count_info(string: str) -> tuple:
     return lines, words, vowels, consonants
 
 
-# Test the function
 string = """This is a string
 with multiple lines
 and multiple words"""
-print(count_info(string))  # (3, 10, 10, 20)
+print(count_info(string))
